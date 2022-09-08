@@ -1,0 +1,12 @@
+import { Injectable } from '@nestjs/common';
+
+@Injectable()
+export class AppService {
+  getHello(): string {
+    return 'Hi Buddy!';
+  }
+
+  getSayMyName(): string {
+    return 'Koksal PAPA';
+  }
+}
